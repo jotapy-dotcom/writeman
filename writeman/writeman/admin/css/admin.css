@@ -1,0 +1,140 @@
+/* WriteMan Admin Styles */
+.writeman-admin .nav-tab-wrapper {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #c3c4c7;
+}
+
+.writeman-admin form {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-top: 20px;
+}
+
+.writeman-admin textarea,
+.writeman-admin input[type="text"],
+.writeman-admin input[type="password"],
+.writeman-admin input[type="number"],
+.writeman-admin input[type="url"] {
+    width: 100%;
+    max-width: 500px;
+}
+
+.writeman-admin .regular-text {
+    width: 100%;
+    max-width: 400px;
+}
+
+.writeman-admin .description {
+    color: #666;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Tarjetas para fuentes RSS */
+.writeman-admin .feed-item {
+    position: relative;
+}
+
+.writeman-admin .feed-item h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #1d2327;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.writeman-admin .feed-item p {
+    margin-bottom: 15px;
+}
+
+.writeman-admin .feed-item label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.writeman-admin .feed-item .remove-feed {
+    background: #d63638;
+    color: white;
+    border: none;
+}
+
+.writeman-admin .feed-item .remove-feed:hover {
+    background: #b32d2e;
+}
+
+/* Botón añadir fuente */
+#add-feed {
+    margin-top: 10px;
+}
+
+/* Estadísticas */
+.wm-stat-box {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    padding: 15px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.wm-stat-box h4 {
+    margin: 0 0 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.wm-stat-box ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.wm-stat-box li {
+    margin-bottom: 5px;
+}
+
+.wm-progress {
+    background: #f0f0f0;
+    border-radius: 3px;
+    margin: 5px 0 10px 0;
+    overflow: hidden;
+}
+
+/* Botones de acción manual */
+.wm-manual-actions {
+    margin: 20px 0;
+}
+
+.wm-manual-actions button {
+    margin-right: 10px;
+}
+
+/* Bienvenida */
+.wm-welcome {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    margin-top: 20px;
+}
+
+.wm-branding h2 {
+    margin-top: 0;
+}
+
+/* Tablas de cola */
+.widefat td {
+    vertical-align: middle;
+}
+
+/* Mensajes de acción */
+#wm-action-message {
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+/* Campos de selección múltiple */
+select[multiple] {
+    min-height: 100px;
+}
